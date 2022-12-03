@@ -12,7 +12,7 @@
 	left: 0;
 	top: 0;
 	height: 100vh;
-	background: #008ea1;
+	background: #008B69;
 	z-index: 100;
 	transition: width 300ms;
 }
@@ -47,7 +47,7 @@
 	background: #fff;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
-	color: #008ea1;
+	color: #008B69;
 	border-radius: 30px 0px 0px 0px;
 }
 .content{
@@ -55,7 +55,6 @@
 	margin-left: 22%;
 }
 
-___________________________________
 header{
 	background-color: #fff;
 	display: flex;
@@ -73,7 +72,7 @@ header{
 	font-size: 1.5rem;
 	padding-right: 1rem;
 	margin-left: 15px;
-	color: #008ea1;
+	color: #008B69;
 }
 .search-wrapp{
 	border: 1px solid #008ea1;
@@ -93,7 +92,7 @@ header{
 	display: inline-block;
 	padding: 0rem 1rem;
 	font-size: 1.5rem;
-	color: #008ea1;
+	color: #008B69;
 }
 .user-wrapp{
 	display: flex;
@@ -131,7 +130,6 @@ header{
 .dropdown-content p{
 	padding: .5rem;
 }
------------------------------------
 
 main{
 	margin-top: 80px;
@@ -163,11 +161,9 @@ main{
 	color: grey;
 }
 .card-single:hover{
-	background-color: #008ea1;
+	background-color: #008B69;
 	color: #fff;
 }
-
-----------------------
 
 .composant{
 	margin-top: 3.5rem;
@@ -189,7 +185,7 @@ main{
 
 }
 .header-case button{
-	background-color: #008ea1;
+	background-color: #008B69;
 	border-radius: 10px;
 	color: #fff;
 	font-size: .8rem;
@@ -198,7 +194,7 @@ main{
 	cursor: pointer;
 }
 .btn{
-	background-color: #008ea1;
+	background-color: #008B69;
 	border-radius: 10px;
 	color: #fff;
 	font-size: .8rem;
@@ -233,7 +229,7 @@ td .status-produit{
 	background-color: #ec1c24;
 }
 .status-produit.color-two{
-	background-color: #fff200;
+	background-color: #65FBD2;
 }
 .status-produit.color-three{
 	background-color: #b83dba;
@@ -350,8 +346,6 @@ td .evolution{
 	color: grey;
 }
 
--------------------
-
 .calendar{
 	padding-top: 2rem;
 
@@ -359,7 +353,7 @@ td .evolution{
 .mois-annee{
 	padding: 70px 25px;
 	width: 100%;
-	background-color: #008ea1;
+	background-color: #008B69;
 	text-align: center;
 }
 .mois-annee ul{
@@ -406,11 +400,9 @@ td .evolution{
 }
 .jours li .active{
 	padding: 5px;
-	background-color: #008ea1;
+	background-color: #008B69;
 	color: #fff !important;
 }
-
-------------------------
 
 #menu:checked ~ .sidebar{
 	width: 60px;
@@ -426,8 +418,6 @@ td .evolution{
 	width: calc(100% - 60px);
 	left: 60px;
 }
-
----------------------------------
 
 @media only screen and (max-width: 960px){
 	.cards{
@@ -464,7 +454,7 @@ td .evolution{
 		color: #fff;
 		align-items: center;
 		justify-content: center !important;
-		background-color: #008ea1;
+		background-color: #008B69;
 	}
 	header p span{
 		text-align: center;
@@ -522,3 +512,4 @@ td .evolution{
 		left: 60px;
 	}
 }
+

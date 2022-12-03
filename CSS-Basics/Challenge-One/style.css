@@ -1,30 +1,21 @@
+* {
+    background-color: #55CCFF;
+    font-size: 20px;
+}
 h1 {
-    text-align: center;
-    font-size: 43px;
-    font-weight: bold;
-    border: 3px dashed rgb(0, 0, 0);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: bisque;
-    clear: both;
+    font-size: 35px;
 }
 
-body {
-    background-color: rgb(227, 83, 90);
-}
-
-li {
+ul, li {
     list-style: none;
-    text-decoration: none;
+    font-size: 20px;
 }
-div {
-    display: inline-block;
-    align-items: center;
-}
-
-#wrap {
+ul {
     text-align: center;
-    border: 3px dashed rgb(0, 0, 0);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: bisque;
-    text-transform: capitalize;
+    text-transform: none;
+}
+span {
+    
+    font-size: 35px;
+    text-transform: uppercase;
 }
